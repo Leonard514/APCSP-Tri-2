@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      8 min read
+      13 min read
     
 </span></p>
 
@@ -130,10 +130,109 @@ window.onload = wrap_img;
       <li>ex: -1, 6, -29, 1000</li>
     </ul>
   </li>
+  <li>
+<strong>Floating Point:</strong>  Positive or negative whole number with a decimal point. Used to represent real  numbers and is written with a decimal point dividing the integer and fractional parts
+    <ul>
+      <li>Ex. 1.23, 87.425, and -9039454.2, NOT 101, -3, 18203</li>
+    </ul>
+  </li>
+  <li>
+<strong>Boolean:</strong>Variable type that represents one of two values: True or False.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="mi">200</span> 
+<span class="n">b</span> <span class="o">=</span> <span class="mi">33</span> 
+<span class="n">If</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="n">a</span><span class="p">:</span>
+<span class="k">print</span><span class="p">(</span><span class="err">“</span><span class="n">b</span> <span class="ow">is</span> <span class="n">greater</span> <span class="n">than</span> <span class="n">a</span><span class="err">”</span><span class="p">)</span>
+<span class="n">If</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">:</span> 
+<span class="k">print</span><span class="p">(</span><span class="err">“</span><span class="n">a</span> <span class="ow">is</span> <span class="n">greater</span> <span class="n">than</span> <span class="n">b</span><span class="err">”</span><span class="p">)</span>
+</code></pre></div></div>
+<ul>
+  <li>
+<strong>ASCII:</strong>Stands for American Standard Code for Information Interchange. ASCII was first created when all people wanted computers to be able to show was numbers, letters, punctuation, and non-printing commands(Enter, Delete, F1).. All ASCII encoded character can be represented by 1 byte, or 8 bits for a total of 2^8 = 127 different total characters.
+    <ul>
+      <li>Ex. lowercase “h” character → 104 (D) → 01101000(B)</li>
+    </ul>
+  </li>
+  <li>
+<strong>Unicode:</strong>today, people use emojis and new symbols like other languages and stuff and computers needed to be able to represent all that. Unicode is a new standard defining an association between characters and even more numbers. Each unicode character (utf8) is 4 bytes, or 32 bits, enough for 2^32 different characters. Most modern programming languages represent strings as utf8 encoded characters (hex) because people use these new symbols in their code, but old languages like C still associate either character type with a single byte integer
+    <ul>
+      <li><strong>Ex. “Hello”  → U+0048 U+0065 U+006C U+006C U+006F</strong></li>
+    </ul>
+  </li>
+  <li>
+<strong>RGB</strong>:RGB (red, green, and blue) refers to a system for representing the colors to be used on a computer display.These 3 colors can be combined in various proportions to obtain any color in the visible spectrum.
+    <ul>
+      <li>Ex. rgb(255, 0, 0) = red because red is set to its highest value (255), and the other two (green and blue) are set to 0.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Lossy</strong>:a technique that reduces file size by discarding less important information</li>
+  <li>
+<strong>Lossless</strong>: Every bit of data originally in a file remains after it is uncompressed, and all the information is restored.</li>
 </ul>
 
 <h1 id="sanikas-work">
 <a class="anchor" href="#sanikas-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sanika’s Work</h1>
+
+<ul>
+  <li>
+    <p><strong>Variables</strong>:An abstraction inside a program that holds a specific value or meaning defined by the programmer.</p>
+  </li>
+  <li>
+<strong>Data Types:</strong>
+    <ul>
+      <li>Integer- highScore (involves math, save as integer or numbers)</li>
+      <li>String- firstName (name is text, so it is a string)</li>
+      <li>Boolean- isSunny (2 options, true or false)</li>
+      <li>String- phoneNumber (no math, just numbers)</li>
+    </ul>
+  </li>
+  <li>
+<strong>Arithmetic Operators:</strong>
+    <ul>
+      <li>Plus indicated addition (a + b)</li>
+      <li>Minus indicates subtractions (a - b)</li>
+      <li>Asterisk indicated multiplication (a * b)</li>
+      <li>Slash indicated division (a / b)</li>
+    </ul>
+  </li>
+  <li>
+<strong>Managing Complexity with Variables</strong>
+    <ul>
+      <li>Lists: Allows you to complete a process for each value in the list, or store multiple values to one variable.</li>
+      <li>2D Lists: Array within an array. You can pull single arrays through using index and variable commands.
+        <ul>
+          <li>Ex: T = [[11, 12, 5, 2], [15, 6,10], [10, 8, 12, 5], [12,15,8,6]]</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Dictionaries:</strong> Allows the storage or data keys and values (assigning a certain piece of data to fit the category it is assigned)</p>
+  </li>
+  <li>
+    <p><strong>Class:</strong> A particular data structure.</p>
+  </li>
+  <li>
+    <p><strong>Algorithms:</strong> An algorithm is a finite set of instructions that accomplish a specific task, us as humans, do algorithms on a daily basis.</p>
+  </li>
+  <li>
+    <p><strong>Sequence:</strong> A specific order a process is completed, which impacts the output.</p>
+  </li>
+  <li>
+    <p><strong>Selection:</strong> Programmer decides between 2 different functions</p>
+  </li>
+  <li>
+<strong>Iteration:</strong> Repetition of a process
+    <ul>
+      <li>For loop: repeats a section of code a set number of times</li>
+      <li>While loop: repearts a section of code an unknown number of times, until the code is told to break</li>
+    </ul>
+  </li>
+  <li>
+<strong>Expression:</strong> A piece of syntax in coding</li>
+</ul>
 
 <h1 id="leonards-work">
 <a class="anchor" href="#leonards-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>Leonard’s Work</h1>
@@ -420,6 +519,66 @@ T detected!</p>
 
 <h1 id="ishis-work">
 <a class="anchor" href="#ishis-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ishi’s Work</h1>
+
+<ul>
+  <li>
+    <p><strong>Nested Selection Statements:</strong> When a program can choose from many paths to lead to a result, think of flowcharts where one condition must be satisfied before another can be picked</p>
+  </li>
+  <li>
+    <p><strong>Python For/While loops with Range with List:</strong> There are two ways loops can be used one is with a range and the other is with a list. When using the range method a variable is iterated a set number of times based on the range (typically an integer value), while with the list method the loop is iterated based on the length of a list.</p>
+  </li>
+</ul>
+
+<p>Range:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+	<span class="k">print</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+	<span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></div></div>
+<p>Output: 1, 2, 3, 4, 5</p>
+
+<p>List:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="err">“</span><span class="n">a</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="n">b</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="n">c</span><span class="err">”</span><span class="p">]</span>
+<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">i</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">):</span>
+	<span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+	<span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+</code></pre></div></div>
+<p>Output: a, b, c</p>
+
+<ul>
+  <li>
+<strong>Combining loops with conditionals to Break:</strong> Makes it so that the loop will stop as soon as a condition is met</li>
+  <li>
+<strong>Continue:</strong> A statement used in while and for loops which starts the code from the beginning, in the image below you can see how the “h” in “Python” was not printed since the continue statement skipped the print(letter) and made the code start from the beginning</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="err">“</span><span class="n">python</span><span class="err">”</span><span class="p">:</span>
+	<span class="k">if</span> <span class="n">letter</span> <span class="o">==</span> <span class="err">“</span><span class="n">n</span><span class="err">”</span><span class="p">:</span>
+		<span class="k">continue</span>
+	<span class="k">print</span><span class="p">(</span><span class="n">letter</span><span class="p">)</span>
+</code></pre></div></div>
+<p>output: pytho</p>
+
+<ul>
+  <li>
+    <p><strong>Procedural Abstraction:</strong> A model of what the code should do but it doen’t tell how to do it. It’s basically using a procedure to name the idea.</p>
+  </li>
+  <li>
+    <p><strong>Python Def:</strong> It defines a function and makes code simpler by allowing for the code in the function to be called</p>
+  </li>
+  <li>
+    <p><strong>Procedures:</strong> Code that doesn’t return a value but allows for a specific task to be completed</p>
+  </li>
+  <li>
+    <p><strong>Parameters:</strong> Values that are passed into functions when they are defined in addition(a + b), a and b will be given a value and that value is a parameter</p>
+  </li>
+  <li>
+    <p><strong>Return Values:</strong> Values that are outputed when a function is completed. An example of this was when we were using console.log(“message”) when testing in AppLab</p>
+  </li>
+</ul>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
