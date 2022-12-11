@@ -425,19 +425,19 @@ pre code { font-size: 15px !important; }
 
 .youtube-iframe-wrapper iframe, .youtube-iframe-wrapper object, .youtube-iframe-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-html, body, input, textarea, select, button { color: #16a34a !important; background-color: #ae5856 !important; }
+html, body, input, textarea, select, button { color: #510606 !important; background-color: #ae5856 !important; }
 
 a { color: #591111 !important; }
 
-a:hover { color: #16a34a !important; }
+a:hover { color: #510606 !important; }
 
-.site-title, .site-title:visited, .site-nav, .page-link { color: #16a34a !important; }
+.site-title, .site-title:visited, .site-nav, .page-link { color: #510606 !important; }
 
 .site-nav { background-color: #ae5856; border-color: #f3ac94; }
 
 * { scrollbar-color: #ae5856 #f3ac94; }
 
-pre, code { border-color: #f3ac94; background-color: #ffffff; }
+pre, code { border-color: #f3ac94; background-color: #e7a0a0; }
 
 .page-description { color: #171717; }
 
@@ -445,11 +445,11 @@ pre, code { border-color: #f3ac94; background-color: #ffffff; }
 
 .post-content p, .post-content li { color: #171717; }
 
-.btn { background-color: #ffffff !important; color: #16a34a !important; border-color: #f3ac94 !important; }
+.btn { background-color: #e7a0a0 !important; color: #510606 !important; border-color: #f3ac94 !important; }
 
 .btn:hover { background-color: #ae5856 !important; }
 
-table th { background-color: #ffffff; border-color: #f3ac94; color: #16a34a; }
+table th { background-color: #e7a0a0; border-color: #f3ac94; color: #510606; }
 
 table td { background-color: #ae5856; border-color: #f3ac94; color: #171717; }
 
@@ -457,7 +457,7 @@ table td { background-color: #ae5856; border-color: #f3ac94; color: #171717; }
 
 canvas { filter: invert(100%); }
 
-.post-list > li > div { box-shadow: none !important; background-color: #ffffff; border: none !important; }
+.post-list > li > div { box-shadow: none !important; background-color: #e7a0a0; border: none !important; }
 
 li .post-meta-description { color: #171717 !important; }
 
