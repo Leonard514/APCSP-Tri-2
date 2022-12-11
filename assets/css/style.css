@@ -439,11 +439,11 @@ a:hover { color: #510606 !important; }
 
 pre, code { border-color: #f3ac94; background-color: #e7a0a0; }
 
-.page-description { color: #171717; }
+.page-description { color: #510606; }
 
-.post-meta { color: #6b7280; }
+.post-meta { color: #510606; }
 
-.post-content p, .post-content li { color: #171717; }
+.post-content p, .post-content li { color: #510606; }
 
 .btn { background-color: #e7a0a0 !important; color: #510606 !important; border-color: #f3ac94 !important; }
 
@@ -451,7 +451,7 @@ pre, code { border-color: #f3ac94; background-color: #e7a0a0; }
 
 table th { background-color: #e7a0a0; border-color: #f3ac94; color: #510606; }
 
-table td { background-color: #ae5856; border-color: #f3ac94; color: #171717; }
+table td { background-color: #ae5856; border-color: #f3ac94; color: #510606; }
 
 .flash { color: #ae5856 !important; filter: brightness(80%); }
 
@@ -459,7 +459,7 @@ canvas { filter: invert(100%); }
 
 .post-list > li > div { box-shadow: none !important; background-color: #e7a0a0; border: none !important; }
 
-li .post-meta-description { color: #171717 !important; }
+li .post-meta-description { color: #510606 !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
