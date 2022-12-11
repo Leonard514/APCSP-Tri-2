@@ -425,13 +425,13 @@ pre code { font-size: 15px !important; }
 
 .youtube-iframe-wrapper iframe, .youtube-iframe-wrapper object, .youtube-iframe-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-html, body, input, textarea, select, button { color: rgba(216, 249, 221, 0.87) !important; background-color: #ae5856 !important; }
+html, body, input, textarea, select, button { color: #1679a3 !important; background-color: #ae5856 !important; }
 
 a { color: #c64949 !important; }
 
-a:hover { color: rgba(216, 249, 221, 0.87) !important; }
+a:hover { color: #1679a3 !important; }
 
-.site-title, .site-title:visited, .site-nav, .page-link { color: rgba(216, 249, 221, 0.87) !important; }
+.site-title, .site-title:visited, .site-nav, .page-link { color: #1679a3 !important; }
 
 .site-nav { background-color: #ae5856; border-color: #b96f6e; }
 
@@ -439,19 +439,19 @@ a:hover { color: rgba(216, 249, 221, 0.87) !important; }
 
 pre, code { border-color: #b96f6e; background-color: #b2605e; }
 
-.page-description { color: rgba(216, 249, 221, 0.69); }
+.page-description { color: #8d3cbe; }
 
-.post-meta { color: rgba(216, 249, 221, 0.38); }
+.post-meta { color: #dca632; }
 
-.post-content p, .post-content li { color: rgba(216, 249, 221, 0.69); }
+.post-content p, .post-content li { color: #8d3cbe; }
 
-.btn { background-color: #b2605e !important; color: rgba(216, 249, 221, 0.87) !important; border-color: #b96f6e !important; }
+.btn { background-color: #b2605e !important; color: #1679a3 !important; border-color: #b96f6e !important; }
 
 .btn:hover { background-color: #ae5856 !important; }
 
-table th { background-color: #b2605e; border-color: #b96f6e; color: rgba(216, 249, 221, 0.87); }
+table th { background-color: #b2605e; border-color: #b96f6e; color: #1679a3; }
 
-table td { background-color: #ae5856; border-color: #b96f6e; color: rgba(216, 249, 221, 0.69); }
+table td { background-color: #ae5856; border-color: #b96f6e; color: #8d3cbe; }
 
 .flash { color: #ae5856 !important; filter: brightness(80%); }
 
@@ -459,7 +459,7 @@ canvas { filter: invert(100%); }
 
 .post-list > li > div { box-shadow: none !important; background-color: #b2605e; border: none !important; }
 
-li .post-meta-description { color: rgba(216, 249, 221, 0.69) !important; }
+li .post-meta-description { color: #8d3cbe !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
