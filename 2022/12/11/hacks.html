@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -129,7 +129,60 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>7 multiple Choice</strong></p>
+<p><strong>(1) Reflection</strong></p>
+<p>Thorough notes or summary that reflects understanding of today's lesson.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>(2) Multiple Choice</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li>What does the random(a,b) function generate? </li>
+</ol>
+<p>A. A random integer from a to be exclusive</p>
+<p>B. A random integer from a to b inclusive.</p>
+<p>C. A random word from variable a to variable b exclusive.</p>
+<p>D. A random word from variable a to variable b inclusive.</p>
+<ol>
+<li>What is x, y, and z in random.randrange(x, y, z)?</li>
+</ol>
+<p>A. x = start, y = stop, z = step</p>
+<p>B. x = start, y = step, z = stop</p>
+<p>C. x = stop, y = start, z = step</p>
+<p>D. x = step, y = start, z = stop</p>
+<ol>
+<li>Which of the following is NOT part of the random library?</li>
+</ol>
+<p>A. random.item</p>
+<p>B. random.random</p>
+<p>C. random.shuffle</p>
+<p>D. random.randint</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>(3) Short Answer Questions</strong></p>
+<ol>
+<li>
+<p>What is the advantage of using libraries?</p>
+</li>
+<li>
+<p>Write a thorough documentation of the following code.</p>
+</li>
+</ol>
 
 </div>
 </div>
@@ -141,24 +194,51 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span> 
+
+<span class="n">names_string</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Give me everybody's names, seperated by a comma."</span><span class="p">)</span>
+<span class="n">names</span> <span class="o">=</span> <span class="n">names_string</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">","</span><span class="p">)</span>
+
+<span class="n">num_items</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+
+<span class="n">random_choice</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">num_items</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">person_who_will_pay</span> <span class="o">=</span> <span class="n">names</span><span class="p">[</span><span class="n">random_choice</span><span class="p">]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">person_who_will_pay</span><span class="si">}</span><span class="s2"> is going to buy the meal today!"</span><span class="p">)</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre> is going to buy the meal today!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
     
 
-<div class="cell border-box-sizing text_cell rendered">
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Coding Challenges!</p>
-<p>Please create programs in python to complete the three tasks (in increasing difficulty):</p>
+<p><strong>(4) Coding Challenges!</strong></p>
+<p><mark>REQUIRED<mark>: Create programs in python to complete the two task&lt;/p&gt;
 <ol>
 <li>Create a program to pick five random names from a list of at least 15 names</li>
-<li>Create a program to simulate a dice game where each player rolls two fair dice; the player with the greater sum wins</li>
+<li>Create a program to simulate a dice game where each player rolls two fair dice (6 sides); the player with the greater sum wins</li>
+</ol>
+<p><mark>EXTRA-CREDIT OPPORTUNITY</mark>:</p>
+<ol>
 <li>Create a program to randomly generate one of those 5x5 square CollegeBoard robot courses frequently seen in these lessons. Here are the criteria:</li>
 </ol>
 <ul>
@@ -177,13 +257,18 @@ window.onload = wrap_img;
 <li>Positions of at least 12 wall/obstacle squares</li>
 </ol>
 <p>The latter three must be mutually exclusive (on different squares). This prevents you from generating a course where the robot is on the goal, on a wall square, or the goal is in a wall square</p>
-<p>Extra credit opportunity: Put safeguards in your program to make sure the robot course is actually possible to complete. This one is tough, so if you manage to do it you're pretty much guaranteed to get 1.0 points. This will not likely be the only way to get a perfect score, however.</p>
+<p><mark>EXTRA X 2</mark>: Put safeguards in your program to make sure the robot course is actually possible to complete. This one is tough, so if you manage to do it you're pretty much guaranteed to get 1.0 points. This will not likely be the only way to get a perfect score, however.</p>
 
-</div>
-</div>
-</div>
-</div>
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+ 
 
+</mark></mark></p>
+</div>
+</div></div>
+</div>
 
 
   </div><!-- from https://github.com/utterance/utterances -->
